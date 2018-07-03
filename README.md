@@ -1,3 +1,12 @@
 # VGA-Display--Pong-Game
-•	Worked in a group of two to design the entities of this interactive multiplayer system using VHDL on Xilinx. It is implemented on a Spartan 6 FPGA board to integrating human input with the digital circuit. Output is via the VGA port.
-•	To avoid the movement of the ball too quickly on the screen, an additional clock and reset was used for limiting the rate at which the data path runs, thus limiting the velocity of the ball.
+The game Pong is one of the first complete, standalone digital arcade games to reach
+mainstream popularity. Pong, released in 1972, is a simple tennis-like game that pits
+two players against each other on an almost-empty screen. A small, square ball
+bounces back and forth between paddles controlled by two players, who attempt to
+bounce it back at their opponent. If either player fails to hit the ball (it goes off the
+edge of their screen), that player loses the round, and their opponent gets a point.
+
+Project Achievement:
+ The creation of a complete design of pong game, interactive system
+ Further exploration of processes and behavioral description in VHDL
+ Additional techniques for integrating human input with a digital circuit and implementing it on a FPGA board. 
